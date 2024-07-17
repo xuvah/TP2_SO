@@ -8,7 +8,7 @@ EXEC:=main
 #----------------- Magica --------------------
 RM:=rm -rf
 
-HRD:=$(wildcard *.h)
+HDR:=$(wildcard *.h)
 SRC:=$(wildcard *.c)
 OBJ:=$(SRC:.c	=.o)
 
